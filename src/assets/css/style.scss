@@ -1,0 +1,29 @@
+.characters{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px;
+  }
+
+  .character-wrapper{
+    img{
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+    h3{
+      text-align: center;
+    }
+  }
+
+  .button-wrapper{
+    text-align: center;
+    margin: 50px;
+  }
+}
